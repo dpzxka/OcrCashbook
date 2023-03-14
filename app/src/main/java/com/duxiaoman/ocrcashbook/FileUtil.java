@@ -1,7 +1,7 @@
 /*
  * Copyright (C) 2017 Baidu, Inc. All Rights Reserved.
  */
-package com.duxiaoman.ocrcashbookk;
+package com.duxiaoman.ocrcashbook;
 
 import android.content.Context;
 

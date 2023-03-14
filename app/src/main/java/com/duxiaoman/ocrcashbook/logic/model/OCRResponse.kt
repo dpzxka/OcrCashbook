@@ -1,4 +1,4 @@
-package com.duxiaoman.ocrcashbook.model
+package com.duxiaoman.ocrcashbook.logic.model
 
 /*result:
     {   "direction":0,
@@ -18,5 +18,5 @@ package com.duxiaoman.ocrcashbook.model
          ],
       "words_result_num":12,
       "log_id":1635072327502270867}*/
-data class OCRResponse(val words_result:List<Words>,val words_result_num:Int,val log_id:Long)
+data class OCRResponse(val words_result:List<Words>, val words_result_num:Int, val log_id:Long)
 data class Words(val words:String)
